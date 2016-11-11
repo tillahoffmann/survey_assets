@@ -1,19 +1,19 @@
 <html>
     <head>
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://imperial.eu.qualtrics.com/jfe/form/SV_7V6Mm6HU4zACEdf" />
+        <meta property="og:url" content="https://imperial.eu.qualtrics.com/SE/?SID=SV_7V6Mm6HU4zACEdf" />
         <meta property="og:image" content="http://ia.media-imdb.com/images/rock.jpg" />
         <script>
             // Get the query string
             current_url = window.location.href;
             index = current_url.lastIndexOf('?');
             if (index > 0)
-                query_string = current_url.substr(index);
+                query_string = '&' + current_url.substr(index + 1);
             else
                 query_string = '';
 
             // Redirect http://stackoverflow.com/questions/503093/how-do-i-redirect-to-another-page-in-jquery
-            base_url = "https://imperial.eu.qualtrics.com/jfe/form/SV_7V6Mm6HU4zACEdf";
+            base_url = "https://imperial.eu.qualtrics.com/SE/?SID=SV_7V6Mm6HU4zACEdf";
             window.location.replace(base_url + query_string);
         </script>
     </head>
