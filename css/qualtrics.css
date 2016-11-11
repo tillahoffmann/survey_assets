@@ -1,0 +1,35 @@
+/* Make text inputs full-width */
+input.InputText {
+    width: 100%;
+}
+
+/* Remove the powered by Qualtrics label*/
+#Plug {
+    visibility: hidden !important;
+}
+
+/* spaced paragraphs for qualtrics terms and conditions */
+p.termsconditions {
+    margin-bottom: 0.5em;
+}
+
+img.flat-icon {
+    width: 50px;
+    margin-right: 10px;
+}
+
+img.flat-icon-left {
+    float: left;
+}
+
+img.flat-icon-right {
+    float: right;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.clearfix {
+    overflow: auto;
+}
