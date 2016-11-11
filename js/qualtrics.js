@@ -40,3 +40,26 @@ function setup_facebook_sharing(qualtrics, force) {
         });
     })
 }
+
+function setup_facebook_sdk() {
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId      : '956542844409891',
+            xfbml      : true,
+            version    : 'v2.8'
+        });
+        FB.AppEvents.logPageView();
+    };
+
+    // Check if the script has already been loaded
+    var id = 'facebook-jssdk';
+    var js, fjs = document.getElementsByTagName('script')[0];
+    if (document.getElementById(id)) {
+        return;
+    }
+    // Setup the script
+    js = document.createElement('script');
+    js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js";
+    fjs.parentNode.insertBefore(js, fjs);
+}
