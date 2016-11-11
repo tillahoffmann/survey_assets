@@ -1,4 +1,4 @@
-function setup_facebook_sharing(qualtrics, force) {
+function setup_facebook_sharing(qualtrics, force, uid) {
     // Add hidden HTML that says we are waiting for the user to complete the nomination
     var wait_div = jQuery('<div id="waiting" style="display: none" class="QuestionText">Waiting for you to share the survey on Facebook.</div>')
     wait_div.insertAfter('#' + qualtrics.questionId);
@@ -19,7 +19,7 @@ function setup_facebook_sharing(qualtrics, force) {
         FB.ui({
             method: 'share',
             mobile_iframe: true,
-            href: 'https:/tillahoffmann.github.io/survey_assets/index.html?token=${e://Field/uid}',
+            href: 'https:/tillahoffmann.github.io/survey_assets/index.html?token=' + uid,
         }, function (response) {
             if (typeof (response) === 'undefined') {
                 // Restore the original layout and reset the question
