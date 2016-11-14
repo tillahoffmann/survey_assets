@@ -19,7 +19,7 @@ function setup_facebook_sharing(qualtrics, force, uid) {
         FB.ui({
             method: 'share',
             mobile_iframe: true,
-            href: 'https:/tillahoffmann.github.io/survey_assets/index.html?token=' + uid,
+            href: 'https://tillahoffmann.github.io/survey_assets/index.html?token=' + uid,
         }, function (response) {
             if (typeof (response) === 'undefined') {
                 // Restore the original layout and reset the question
