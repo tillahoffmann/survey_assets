@@ -33,3 +33,31 @@ img.flat-icon-right {
 .clearfix {
     overflow: auto;
 }
+
+/* Use Imperial colours (see http://www.imperial.ac.uk/brand-style-guide/visual-identity/brand-colours/)*/
+.Skin label.SingleAnswer.q-checked, .Skin label.MultipleAnswer.q-checked, .Skin .SB input,
+.Skin .RO .DND ul.Edited .rank, .Skin .RO .DND ul.NotEdited li:hover .rank, .Skin .RO .DND .rank,
+.Skin label.q-radio.q-checked, .Skin label.q-checkbox.q-checked, .Skin .horizontalbar .activated .bar,
+.Skin .horizontalbar .BarContainer:hover .bar, .Skin .SS .horizontalbar .handle, .Skin .horizontalbar .Slider .handle,
+.Skin .SS .verticalbar .SSTrack .handle, .Skin .SS .horizontalbar .handle:hover,
+.Skin .horizontalbar .Slider .handle:hover, .Skin .RO .DND .rank, .Skin .PGR .DragAndDrop .rank,
+.Skin #Buttons #NextButton, .Skin #Buttons #PreviousButton, .Skin #Buttons #NextButton:hover,
+.Skin #Buttons #PreviousButton:hover, .Skin #Buttons #NextButton:active, .Skin .ProgressBarFill,
+.Skin #Buttons #PreviousButton:active, .Skin #Plug a:hover, .Skin #TocHeader td.Current a, .Skin #Toc li.Current,
+.Skin #Toc li.Current a, .Skin body #Toc li.Current a, .Skin #Toc li.Current strong, .Skin #Toc li.Current, #TocIcon,
+#TocIcon:before, #TocIcon:after {
+    background-color: #006eaf !important;
+}
+
+.Skin .SB input, .Skin input.TextEntryBox:focus, .Skin .TE textarea:focus, .Skin textarea:focus,
+.Skin input[type=”password”]:focus, .Skin input[type=”text”]:focus, .Skin input[type=”search”]:focus,
+.Skin select:focus, .Skin label.SingleAnswer.q-checked + input, .Skin label.MultipleAnswer.q-checked + input,
+.Skin label.q-radio, .Skin label.q-checkbox, .Skin .HBAR .trackHolderRel.activated .track,
+.Skin .HBAR .trackHolderRel .track:hover, .InputText:focus {
+    border-color: #006eaf !important;
+}
+
+.Skin #ProgressBar tr td:first-child, .Skin #ProgressBar tr td:first-child + td + td, .Skin .ProgressBarContainer {
+    color: #006eaf !important;
+    border-left-color: #006eaf !important;
+}
