@@ -1,0 +1,103 @@
+.imperialblue {
+    background: #006eaf;
+    color: white;
+}
+
+.imperialblue h1 {
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.imperialblue a {
+    color: #ec7300;
+}
+
+.landing {
+    width: 100%;
+}
+
+.footer {
+    background: #9d9d9d;
+    text-align: center;
+}
+
+.footer a {
+    color:white;
+}
+
+.glyphicon-space {
+    margin-right: .25em;
+}
+
+.avatar {
+    width: 125px;
+    height: 125px;
+    margin-bottom: 1em;
+}
+
+.btn-secondary {
+    color: #ffffff;
+    background-color: #ec7300;
+    border-color: #ec7300;
+    width: 100%;
+}
+.btn-secondary:focus,
+.btn-secondary.focus {
+    color: #ffffff;
+    background-color: #b95a00;
+    border-color: #6d3500;
+}
+.btn-secondary:hover {
+    color: #ffffff;
+    background-color: #b95a00;
+    border-color: #af5500;
+}
+.btn-secondary:active,
+.btn-secondary.active,
+.open > .dropdown-toggle.btn-secondary {
+    color: #ffffff;
+    background-color: #b95a00;
+    border-color: #af5500;
+}
+.btn-secondary:active:hover,
+.btn-secondary.active:hover,
+.open > .dropdown-toggle.btn-secondary:hover,
+.btn-secondary:active:focus,
+.btn-secondary.active:focus,
+.open > .dropdown-toggle.btn-secondary:focus,
+.btn-secondary:active.focus,
+.btn-secondary.active.focus,
+.open > .dropdown-toggle.btn-secondary.focus {
+    color: #ffffff;
+    background-color: #954900;
+    border-color: #6d3500;
+}
+.btn-secondary:active,
+.btn-secondary.active,
+.open > .dropdown-toggle.btn-secondary {
+    background-image: none;
+}
+.btn-secondary.disabled,
+.btn-secondary[disabled],
+fieldset[disabled] .btn-secondary,
+.btn-secondary.disabled:hover,
+.btn-secondary[disabled]:hover,
+fieldset[disabled] .btn-secondary:hover,
+.btn-secondary.disabled:focus,
+.btn-secondary[disabled]:focus,
+fieldset[disabled] .btn-secondary:focus,
+.btn-secondary.disabled.focus,
+.btn-secondary[disabled].focus,
+fieldset[disabled] .btn-secondary.focus,
+.btn-secondary.disabled:active,
+.btn-secondary[disabled]:active,
+fieldset[disabled] .btn-secondary:active,
+.btn-secondary.disabled.active,
+.btn-secondary[disabled].active,
+fieldset[disabled] .btn-secondary.active {
+    background-color: #ec7300;
+    border-color: #ec7300;
+}
+.btn-secondary .badge {
+    color: #ec7300;
+    background-color: #ffffff;
+}
