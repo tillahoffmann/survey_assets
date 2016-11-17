@@ -18,6 +18,21 @@
     <meta property="og:image" content="https://tillahoffmann.github.io/survey_assets/images/share.jpg" />
     <meta property="og:image:secure_url" content="https://tillahoffmann.github.io/survey_assets/images/share.jpg" />
     <meta property="fb:app_id" content="956542844409891" />
+    <script>
+    function redirect() {
+        // Get the query string
+        current_url = window.location.href;
+        index = current_url.lastIndexOf('?');
+        if (index > 0)
+            query_string = '&' + current_url.substr(index + 1);
+        else
+            query_string = '';
+
+        // Redirect http://stackoverflow.com/questions/503093/how-do-i-redirect-to-another-page-in-jquery
+        base_url = "https://imperial.eu.qualtrics.com/SE/?SID=SV_7V6Mm6HU4zACEdf";
+        window.location.href = base_url + query_string;
+    }
+    </script>
 </head>
 <body>
 <div class="jumbotron imperialblue">
@@ -35,7 +50,7 @@
                     collected.</p>
                 <p><span class="glyphicon glyphicon-ok" aria-hidden="true"></span> The survey only takes four
                     minutes.</p>
-                <a href="https://imperial.eu.qualtrics.com/SE/?SID=SV_diFyoD8Z3nhwAi9&token=">
+                <a onclick="redirect()">
                     <button type="button" class="btn btn-secondary btn-lg">Take the survey</button>
                 </a>
             </div>
